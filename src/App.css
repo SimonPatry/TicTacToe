@@ -1,0 +1,46 @@
+.App,
+.App-content {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-board {
+  background-image: url("~/assets/images/board-background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 40em;
+  width: 40em;
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.square {
+  width:30%;
+  height: auto;
+  border: 3px solid green;
+  display: flex;
+  justify-content: center;
+}
+.square:hover{
+  border:2px solid black;
+}
+.App-link {
+  color: #61dafb;
+}
